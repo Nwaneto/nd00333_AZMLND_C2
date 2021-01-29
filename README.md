@@ -52,12 +52,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  1. Where we start by provided logs.py by adding the name of the deployed model. 
  
 *Figure 7: logs.py(Modification)*
- ![Enable-application-insight]([application insight enabled.PNG] "Enable-application-insight")
+ ![Enable-application-insight](application insight enabled.PNG "Enable-application-insight")
  
   2. we then execute the logs.py file 
   
 *Figure 8: logs.py(Execution)*
-  ![log-application-insight]([logs.py running.PNG] "log-application-insight")
+  ![log-application-insight](logs.py running.PNG "log-application-insight")
   
   3. To finally access to application insight  from the endpoints 
  
@@ -67,7 +67,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
  *Figure 10: Swagger.json*
-   ![Swagger-json]( [swagger running on localhost.PNG] " Swagger-json")
+   ![Swagger-json](swagger running on localhost.PNG " Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
