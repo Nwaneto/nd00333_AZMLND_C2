@@ -28,13 +28,10 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
  2. Create the compute cluster using Standard_DS3_V2 as VM Size:
 
-*Figure 2: Compute / cpu-clusters*
-![Compute-cluster](Compute-cluster.png "Compute-cluster")
-
  3. We then configure and run the AutoML Part:
  
 *Figure 3: Experiments / auto-ml-exp*
-![Experiment-completed](AutoML module screenshot.PNG "Experiment-completed")
+![Experiment-completed](AutoML-module-screenshot.PNG "Experiment-completed")
 
  4. Now retrieve the Best Model:
  
@@ -52,12 +49,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  1. Where we start by provided logs.py by adding the name of the deployed model. 
  
 *Figure 7: logs.py(Modification)*
- ![Enable-application-insight](application insight enabled.PNG "Enable-application-insight")
+ ![Enable-application-insight](application-insight-enabled.PNG "Enable-application-insight")
  
   2. we then execute the logs.py file 
   
 *Figure 8: logs.py(Execution)*
-  ![log-application-insight](logs.py running.PNG "log-application-insight")
+  ![log-application-insight](logspy-running.PNG "log-application-insight")
   
   3. To finally access to application insight  from the endpoints 
  
@@ -67,29 +64,29 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
  *Figure 10: Swagger.json*
-   ![Swagger-json](swagger running on localhost.PNG " Swagger-json")
+   ![Swagger-json](swagger-running-on-localhost.PNG "Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
  *Figure 11: Swagger default page*
-   ![swagger-default-page]( [swagger-default-page.PNG] " swagger-default-page.PNG")
+   ![swagger-default-page](swagger-default-page.PNG "swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
  *Figure 12: Swagger documentation associated to the model endpoints*
-   ![swagger-endpoints](swagger payload.PNG " swagger-endpoints")
+   ![swagger-endpoints](swagger payload.PNG "swagger-endpoints")
    
  **Step 6: Consume the Model Endpoints**
  
   1. Where we start by modifying a provided endpoints.py by adding the scoring_uri 
   
  *Figure 13: endpoint.py*
-   ![EndPoint-file](EndPoint-file.PNG " EndPoint-file")
+   ![EndPoint-file](EndPoint-file.PNG "EndPoint-file")
    
   2. To finally run the endpoint.py to interact with the trained model
   
  *Figure 14: Interaction with the model using endpoint.py*
-   ![endpoints-result](endpoint.py runs.PNG " endpoints-result")
+   ![endpoints-result](endpoint.py runs.PNG "endpoints-result")
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these previous steps in one python SDK**
 
