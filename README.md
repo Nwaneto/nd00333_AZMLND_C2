@@ -66,12 +66,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   2. We next execute the provided swagger.sh 
   
  *Figure 11: Swagger default page*
-   ![swagger-default-page](swagger-default-page.PNG "swagger-default-page.PNG")
+   ![swagger-default-page](swagger-running-on-localhost.PNG "swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
  *Figure 12: Swagger documentation associated to the model endpoints*
-   ![swagger-endpoints](swagger payload.PNG "swagger-endpoints")
+   ![swagger-endpoints](swagger-payload.PNG "swagger-endpoints")
    
  **Step 6: Consume the Model Endpoints**
  
@@ -83,7 +83,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   2. To finally run the endpoint.py to interact with the trained model
   
  *Figure 14: Interaction with the model using endpoint.py*
-   ![endpoints-result](endpoint.py runs.PNG "endpoints-result")
+   ![endpoints-result](endpointpy-runs.PNG "endpoints-result")
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these previous steps in one python SDK**
 
