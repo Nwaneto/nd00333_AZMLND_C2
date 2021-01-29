@@ -43,44 +43,36 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
 **Step 3: Deploy the Best Model**
 
- 1. Let us start by deploying the best Model from the previous Auto ML experiment using ACI.
+ 1. We start by deploying the best Model from the previous Auto ML experiment using ACI.
 
-*Figure 5: Experiments / auto-ml-exp / Run 4 (Run 75 deployment)*
-![Deployment-Best-Model](Deployment-Best-Model.PNG "Deployment-Best-Model")
-
- 2. To finally create the endpoints 
+ 2. And finally create the endpoints 
  
-*Figure 6: Endpoints /mlops-model-deploy-bm  (Healthy)*
-![End-Point-creation](End-Point-creation.PNG "End-Point-creation")
-
-**Step 4: Enable Application Insights to retrieve logs **
+**Step 4: Enable Application Insights to retrieve logs**
 
  1. Where we start by provided logs.py by adding the name of the deployed model. 
  
 *Figure 7: logs.py(Modification)*
- ![Enable-application-insight](application insight enabled.PNG "Enable-application-insight")
+ ![Enable-application-insight]([application insight enabled.PNG] "Enable-application-insight")
  
   2. we then execute the logs.py file 
   
 *Figure 8: logs.py(Execution)*
-  ![log-application-insight](logs.py running.PNG "log-application-insight")
+  ![log-application-insight]([logs.py running.PNG] "log-application-insight")
   
   3. To finally access to application insight  from the endpoints 
-  
-*Figure 9: Application insight*
- ![Application-insight]( Application-insight.png " Application-insight")
+ 
  
  **Step 5: Consume the deployed model using Swagger**
  
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
  *Figure 10: Swagger.json*
-   ![Swagger-json]( swagger running on localhost.PNG " Swagger-json")
+   ![Swagger-json]( [swagger running on localhost.PNG] " Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
  *Figure 11: Swagger default page*
-   ![swagger-default-page]( swagger-default-page.PNG " swagger-default-page.PNG")
+   ![swagger-default-page]( [swagger-default-page.PNG] " swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
