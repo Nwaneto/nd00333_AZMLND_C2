@@ -29,9 +29,6 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  2. Create the compute cluster using Standard_DS3_V2 as VM Size:
 
  3. We then configure and run the AutoML Part:
- 
-*Figure 3: Experiments / auto-ml-exp*
-![Experiment-completed](AutoML-module-screenshot.PNG "Experiment-completed")
 
  4. Now retrieve the Best Model:
  
