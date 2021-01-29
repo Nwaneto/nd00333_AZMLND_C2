@@ -34,12 +34,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  3. We then configure and run the AutoML Part:
  
 *Figure 3: Experiments / auto-ml-exp*
-![Experiment-completed](Experiment-completed.png "Experiment-completed")
+![Experiment-completed](AutoML module screenshot.PNG "Experiment-completed")
 
  4. Now retrieve the Best Model:
  
 *Figure 4: Experiments / auto-ml-exp / Run 4 (completed)*
-![Best-Model](Best-Model.png "Best-Model")
+![Best-Model](best-model.PNG "Best-Model")
 
 **Step 3: Deploy the Best Model**
 
@@ -58,12 +58,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  1. Where we start by provided logs.py by adding the name of the deployed model. 
  
 *Figure 7: logs.py(Modification)*
- ![Enable-application-insight](Enable-application-insight.png "Enable-application-insight")
+ ![Enable-application-insight](application insight enabled.PNG "Enable-application-insight")
  
   2. we then execute the logs.py file 
   
 *Figure 8: logs.py(Execution)*
-  ![log-application-insight](log-application-insight.PNG "log-application-insight")
+  ![log-application-insight](logs.py running.PNG "log-application-insight")
   
   3. To finally access to application insight  from the endpoints 
   
@@ -75,7 +75,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
  *Figure 10: Swagger.json*
-   ![Swagger-json]( Swagger-json.png " Swagger-json")
+   ![Swagger-json]( swagger running on localhost.PNG " Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
@@ -85,7 +85,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   3. To finally display the API Documentation of the model 
   
  *Figure 12: Swagger documentation associated to the model endpoints*
-   ![swagger-endpoints](swagger-endpoints.PNG " swagger-endpoints")
+   ![swagger-endpoints](swagger payload.PNG " swagger-endpoints")
    
  **Step 6: Consume the Model Endpoints**
  
@@ -97,13 +97,13 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   2. To finally run the endpoint.py to interact with the trained model
   
  *Figure 14: Interaction with the model using endpoint.py*
-   ![endpoints-result](endpoints-result.PNG " endpoints-result")
+   ![endpoints-result](endpoint.py runs.PNG " endpoints-result")
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these previous steps in one python SDK**
 
   1. Use aml-pipelines-with-automated-machine-learning-step.ipynb 
   
-  2. No download the config.json file and place it in the working directory
+  2. Now download the config.json file and place it in the working directory
   
   3. And finally Run the different cells.
  
