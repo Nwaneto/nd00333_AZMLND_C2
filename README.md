@@ -13,7 +13,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
 ## Architectural Diagram
 
-![architector](architector.png "architecture")
+![architector](architecture(1).png "architecture")
 
 ## Key Steps
 
