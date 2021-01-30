@@ -97,7 +97,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   ![pipeline-completed](pipeline-completed.PNG " pipeline-completed")
   
   *Figure 16: Pipeline creation (azure ml studio)*
-  ![pipeline-creation](pipeline created.PNG " pipeline-creation")
+  ![pipeline-creation](pipeline-created.PNG " pipeline-creation")
   
   *Figure 17: Pipeline run overview (azure ml studio)*
   ![pipeline-rest-endpoint](run-completed.PNG " pipeline-rest-endpoint")
