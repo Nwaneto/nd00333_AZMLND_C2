@@ -103,7 +103,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   ![pipeline-rest-endpoint](scheduled-run.PNG "pipeline-rest-endpoint")
   
    *Figure 18: Run details widget showing runs(jupyter Notebook)*
-  ![pipeline-EXP](run-details-widget-showing-runs.png "pipeline-EXP")
+  ![pipeline-EXP](run-details-widget-showing-runs.PNG "pipeline-EXP")
   
     . Create the Rest endpoint associated with the pipeline
     
