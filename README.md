@@ -32,7 +32,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
  4. Now retrieve the Best Model:
  
-*Figure 4: Experiments / auto-ml-exp / Run 4 (completed)*
+*Figure 4: Experiments / auto-ml-exp / Run 1 (completed)*
 ![Best-Model](best-model.PNG "Best-Model")
 
 **Step 3: Deploy the Best Model**
@@ -78,7 +78,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   1. Where we start by modifying a provided endpoints.py by adding the scoring_uri 
   
  *Figure 13: endpoint.py*
-   ![EndPoint-file](EndPoint-file.PNG "EndPoint-file")
+   ![EndPoint-file](endpointpy-runs.PNG "EndPoint-file")
    
   2. To finally run the endpoint.py to interact with the trained model
   
