@@ -32,7 +32,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
  4. Now retrieve the Best Model:
  
-*Figure 4: Experiments / auto-ml-exp / Run 1 (completed)*
+*Figure 2: Experiments / auto-ml-exp / Run 1 (completed)*
 ![Best-Model](best-model.PNG "Best-Model")
 
 **Step 3: Deploy the Best Model**
@@ -45,12 +45,12 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
  1. Where we start by provided logs.py by adding the name of the deployed model. 
  
-*Figure 7: logs.py(Modification)*
+*Figure 3: logs.py(Modification)*
  ![Enable-application-insight](application-insight-enabled.PNG "Enable-application-insight")
  
   2. we then execute the logs.py file 
   
-*Figure 8: logs.py(Execution)*
+*Figure 4: logs.py(Execution)*
   ![log-application-insight](logspy-running.PNG "log-application-insight")
   
   3. To finally access to application insight  from the endpoints 
@@ -60,29 +60,26 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
  
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
- *Figure 10: Swagger.json*
+ *Figure 5: Swagger.json*
    ![Swagger-json](my-model-running-on-swagger.PNG "Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
- *Figure 11: Swagger default page*
+ *Figure 6: Swagger default page*
    ![swagger-default-page](swagger-running-on-localhost.PNG "swagger-default-page.PNG")
    
   3. To finally display the API Documentation of the model 
   
- *Figure 12: Swagger documentation associated to the model endpoints*
+ *Figure 7: Swagger documentation associated to the model endpoints*
    ![swagger-endpoints](swagger-payload.PNG "swagger-endpoints")
    
  **Step 6: Consume the Model Endpoints**
  
   1. Where we start by modifying a provided endpoints.py by adding the scoring_uri 
-  
- *Figure 13: endpoint.py*
-   ![EndPoint-file](endpointpy-runs.PNG "EndPoint-file")
-   
+     
   2. To finally run the endpoint.py to interact with the trained model
   
- *Figure 14: Interaction with the model using endpoint.py*
+ *Figure 8: Interaction with the model using endpoint.py*
    ![endpoints-result](endpointpy-runs.PNG "endpoints-result")
    
    **Step 7: Create, Publish and Consume a Pipeline to automate all these previous steps in one python SDK**
@@ -93,21 +90,21 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   
   3. And finally Run the different cells.
  
-  *Figure 15: Pipeline creation (jupyter Notebook)*
+  *Figure 9: Pipeline creation (jupyter Notebook)*
   ![pipeline-completed](pipeline-completed.PNG "pipeline-completed")
   
-  *Figure 16: Pipeline creation (azure ml studio)*
+  *Figure 10: Pipeline creation (azure ml studio)*
   ![pipeline-creation](pipeline-created.PNG "pipeline-creation")
   
-  *Figure 17: Pipeline run overview (azure ml studio)*
+  *Figure 11: Pipeline run overview (azure ml studio)*
   ![pipeline-rest-endpoint](scheduled-run.PNG "pipeline-rest-endpoint")
   
-   *Figure 18: Run details widget showing runs(jupyter Notebook)*
+   *Figure 12: Run details widget showing runs(jupyter Notebook)*
   ![pipeline-EXP](run-details-widget-showing-runs.PNG "pipeline-EXP")
   
     . Create the Rest endpoint associated with the pipeline
     
-   *Figure 19: Published pipeline overview*
+   *Figure 13: Published pipeline overview*
  ![pipeline-published](active-publishes-pipeline.PNG " pipeline-publishe")
   
   
