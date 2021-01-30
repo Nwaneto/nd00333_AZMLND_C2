@@ -94,16 +94,16 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   3. And finally Run the different cells.
  
   *Figure 15: Pipeline creation (jupyter Notebook)*
-  ![pipeline-completed](pipeline-completed.PNG " pipeline-completed")
+  ![pipeline-completed](pipeline-completed.PNG "pipeline-completed")
   
   *Figure 16: Pipeline creation (azure ml studio)*
-  ![pipeline-creation](pipeline-created.PNG " pipeline-creation")
+  ![pipeline-creation](pipeline-created.PNG "pipeline-creation")
   
   *Figure 17: Pipeline run overview (azure ml studio)*
-  ![pipeline-rest-endpoint](scheduled-run.PNG " pipeline-rest-endpoint")
+  ![pipeline-rest-endpoint](scheduled-run.PNG "pipeline-rest-endpoint")
   
    *Figure 18: Pipeline experiments(azure ml studio)*
-  ![pipeline-EXP](pipelin-exp.png " pipeline-EXP")
+  ![pipeline-EXP](pipelin-exp.png "pipeline-EXP")
   
     . Create the Rest endpoint associated with the pipeline
     
