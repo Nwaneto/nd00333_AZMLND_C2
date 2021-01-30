@@ -108,11 +108,8 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
     . Create the Rest endpoint associated with the pipeline
     
    *Figure 19: Published pipeline overview*
- ![pipeline-published](pipelin-published.PNG " pipeline-publishe")
-   
-   
-*Figure 20 : deployment failed*
-![auto-ml-failed](auto-ml-failed.png " auto-ml-failed")
+ ![pipeline-published](active-publishes-pipeline.PNG " pipeline-publishe")
+  
 
 ## Screen Recording Video: https://youtu.be/8SVF-T54hrE
 
