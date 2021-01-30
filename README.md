@@ -111,4 +111,4 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
 
 ## Screen Recording Video: https://youtu.be/8SVF-T54hrE
 
-My proposals for what's to come are related with the AutoML step where we need first to fix the adjusting issue which can prompt a dishonestly saw beneficial outcome of the model's exactness, we need additionally close to give additional time and even pick profound figuring out how to the AutoML analysis to test more model and convey a superior outcome
+I have no future proposals yet.
