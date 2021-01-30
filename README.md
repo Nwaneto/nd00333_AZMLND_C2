@@ -61,7 +61,7 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   1. Where we start by downloading the swagger.json file associated with the deployed model
   
  *Figure 10: Swagger.json*
-   ![Swagger-json](my model running on swagger.PNG "Swagger-json")
+   ![Swagger-json](my-model-running-on-swagger.PNG "Swagger-json")
    
   2. We next execute the provided swagger.sh 
   
