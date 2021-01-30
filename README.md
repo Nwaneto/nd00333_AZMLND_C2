@@ -102,13 +102,14 @@ Where we apply MLOps rule by beginning with the validating to Azure Machine Lear
   *Figure 17: Pipeline run overview (azure ml studio)*
   ![pipeline-rest-endpoint](scheduled-run.PNG "pipeline-rest-endpoint")
   
-   *Figure 18: Pipeline experiments(azure ml studio)*
-  ![pipeline-EXP](pipelin-exp.png "pipeline-EXP")
+   *Figure 18: Run details widget showing runs(jupyter Notebook)*
+  ![pipeline-EXP](run-details-widget-showing-runs.png "pipeline-EXP")
   
     . Create the Rest endpoint associated with the pipeline
     
    *Figure 19: Published pipeline overview*
  ![pipeline-published](active-publishes-pipeline.PNG " pipeline-publishe")
+  
   
 
 ## Screen Recording Video: https://youtu.be/8SVF-T54hrE
